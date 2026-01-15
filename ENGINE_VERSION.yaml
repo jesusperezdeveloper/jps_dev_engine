@@ -1,0 +1,21 @@
+version: 1.0.0
+release_date: 2025-01-15
+
+includes:
+  architecture:
+    flutter: 1.0.0
+  skills: []
+  memory_edits: 10
+
+changelog:
+  1.0.0:
+    date: 2025-01-15
+    summary: "Initial release - Arquitectura base Flutter"
+    changes:
+      - Clean Architecture por capas (core/data/domain/presentation)
+      - AppLayoutBuilder obligatorio (mobile/tablet/desktop)
+      - Sistema de responsive con breakpoints definidos
+      - 10 Memory Edits base configurados
+      - Testing strategy (unit/widget/golden)
+      - BLoC como único state management permitido
+    migration: null
